@@ -75,7 +75,7 @@ def get_keywords(text, n=15):
     return [kw[0] for kw in keywords]
 
 # ---------- GEMINI SETUP ----------
-GEMINI_API_KEY = "GEMINI_API_KEY"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash-latest")
 

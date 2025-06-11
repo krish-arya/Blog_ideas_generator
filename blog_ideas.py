@@ -92,7 +92,7 @@ if st.button("🧠 Generate Blog Ideas"):
 
             context_snippet = f"""
 Brand Description:
-{brand_desc}
+{brand_desc[:500]}
 
 Example Blogs:
 {brand_example_blogs}

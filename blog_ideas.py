@@ -97,7 +97,7 @@ def cached_crawl_and_keywords(website_url):
     return urls, text_data, keywords
 
 # ---------- GEMINI SETUP ----------
-GEMINI_API_KEY = ""
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", "")
 if not GEMINI_API_KEY:
     st.warning("⚠️ Gemini API key not found. Add it in Render Secrets.")
 genai.configure(api_key=GEMINI_API_KEY)

@@ -138,7 +138,7 @@ Now, based on the above, generate **5 fresh, unique, and engaging blog titles** 
 - Are NOT generic or repeated — avoid clichés
 - Allow for natural internal product linking on a website (e.g., "explore our latest collection")
 - Match the tone and style of high-end fashion or lifestyle blogs
-
+- Dont make it robotic in any case avoid usig words like tapestry and words like that, make it very engaging and human like.
 Ensure every title is blog-ready — catchy, crisp, and impactful.
 """
 
